@@ -1,0 +1,25 @@
+pane	0	0	:ssh	0	:-	0	:/home/qtm/projects	1	ssh	:ssh forge@yd.csssr.ru
+pane	0	1	:projects-1	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@projects-1.csssr.ru
+pane	0	1	:projects-1	0	: 	1	:/home/qtm/projects/ansible	0	ssh	:ssh root@projects-1.csssr.ru
+pane	0	2	:csssr ansible	0	: 	0	:/home/qtm/projects/ansible	1	vim	:vim -S
+pane	0	3	:hosts	1	:*	0	:/home/qtm/.config/powerline	1	vim	:vim /home/qtm/.tmux.conf
+vim /home/qtm/.tmux.conf
+pane	0	3	:hosts	1	:*	1	:/home/qtm/.config/powerline	0	vim	:vim
+pane	0	4	:ssh	0	: 	0	:/home/qtm/Homestead	1	zsh	:
+pane	0	5	:gulp front	0	: 	0	:/home/qtm	1	vim	:vim
+pane	0	6	:front	0	: 	0	:/media/Data/external/www/csssr/tools-front	1	vim	:vim -S
+pane	1	0	:zsh	1	:*	0	:/media/Data/external/www/_archive/_unfinshed_mine/timegain/app	1	vim	:vim
+pane	1	0	:zsh	1	:*	1	:/media/Data/external/www/timegain/frontend	0	zsh	:
+pane	1	1	:vim	0	:-	0	:/media/Data/Dropbox/notes/projects	1	vim	:vim
+pane	1	2	:zsh	0	: 	0	:/home/qtm/.config/base16-builder/templates/gnome-terminal	1	zsh	:
+window	0	0	0	:-	b93e,191x43,0,0,1
+window	0	1	0	: 	9743,191x43,0,0[191x22,0,0,2,191x20,0,23,3]
+window	0	2	0	: 	b941,191x43,0,0,4
+window	0	3	1	:*	2d03,191x43,0,0{95x43,0,0,5,95x43,96,0,6}
+window	0	4	0	: 	b944,191x43,0,0,7
+window	0	5	0	: 	b945,191x43,0,0,8
+window	0	6	0	: 	b946,191x43,0,0,9
+window	1	0	1	:*	54c2,191x43,0,0{95x43,0,0,10,95x43,96,0,11}
+window	1	1	0	:-	5cd1,191x43,0,0,12
+window	1	2	0	: 	5cd2,191x43,0,0,13
+state	0	1

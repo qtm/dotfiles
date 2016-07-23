@@ -1,0 +1,46 @@
+pane	0	0	:	1	:!*	0	:/home/qtm	1	weechat	:weechat
+pane	anki	0	:english	1	:*	0	:/home/qtm	1	nvim	:nvim english.md
+pane	csssr	0	:back	0	:-	0	:/media/Data/external/www/csssr/tools-back	1	nvim	:nvim
+pane	csssr	0	:back	0	:-	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr	1	:notes	0	: 	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim csssr.txt
+pane	csssr	2	:log	0	: 	0	:/media/Data/external/www/csssr/tools-back/storage/logs	1	tail	:tail -f laravel.log
+pane	csssr	3	:homestead	1	:*	0	:/home/qtm/Homestead	1	ssh	:ssh vagrant@192.168.10.10
+pane	csssr	3	:homestead	1	:*	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr	4	:nvim	0	: 	0	:/home/qtm/.vim/plugged/deoplete.nvim	1	zsh	:
+pane	csssr	4	:nvim	0	: 	1	:/home/qtm/.vim/plugged/base16-vim/colors	0	zsh	:
+pane	csssr	5	:site	0	: 	0	:/media/Data/external/www/csssr/csssr.ru	1	nvim	:nvim
+pane	csssr-servers	0	:ansible	1	:*	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	1	:p1	0	:Z	0	:/home/qtm	0	zsh	:
+pane	csssr-servers	1	:p1	0	:Z	1	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	2	:p2	0	: 	0	:/home/qtm	0	ssh	:ssh root@projects-2.csssr.ru
+pane	csssr-servers	2	:p2	0	: 	1	:/home/qtm/projects/ansible	1	ssh	:ssh root@projects-2.csssr.ru
+pane	csssr-servers	3	:1c	0	:Z	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	3	:1c	0	:Z	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	3	:1c	0	:Z	2	:/media/Data/Downloads	0	zsh	:
+pane	csssr-servers	4	:prometheus	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@prometheus.csssr.ru
+pane	csssr-servers	5	:main	0	:-	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@csssr.ru
+pane	euler	0	:	1	:*	0	:/home/qtm/projects/euler/001	1	nvim	:nvim main.go
+pane	go playground	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	home-router	0	:zsh	1	:*	0	:/home/qtm/openvpn	1	zsh	:
+pane	home-router	1	:ssh	0	:-	0	:/home/qtm/openvpn	1	zsh	:
+pane	notes	0	:nvim	1	:*	0	:/media/Data/Dropbox/Listacular	1	nvim	:nvim english.md
+window	0	0	1	:!*	c33e,191x36,0,0,1
+window	anki	0	1	:*	c33f,191x36,0,0,2
+window	csssr	0	0	:-	3e1e,192x37,0,0{134x37,0,0,3,57x37,135,0,27}
+window	csssr	1	0	: 	c7c2,192x37,0,0,5
+window	csssr	2	0	: 	c7c3,192x37,0,0,6
+window	csssr	3	1	:*	3075,192x37,0,0{99x37,0,0,7,92x37,100,0,8}
+window	csssr	4	0	: 	4386,192x37,0,0{98x37,0,0,9,93x37,99,0,10}
+window	csssr	5	0	: 	6410,192x37,0,0,11
+window	csssr-servers	0	1	:*	6411,192x37,0,0,12
+window	csssr-servers	1	0	:Z	ff85,192x37,0,0{99x37,0,0,13,92x37,100,0,14}
+window	csssr-servers	2	0	: 	c912,192x37,0,0{96x37,0,0,15,95x37,97,0,26}
+window	csssr-servers	3	0	:Z	aac7,192x37,0,0{97x37,0,0[97x19,0,0,16,97x17,0,20,17],94x37,98,0,18}
+window	csssr-servers	4	0	: 	6418,192x37,0,0,19
+window	csssr-servers	5	0	:-	e40f,192x37,0,0,20
+window	euler	0	1	:*	e1d0,191x36,0,0,21
+window	go playground	0	1	:*	e1d1,191x36,0,0,22
+window	home-router	0	1	:*	e1d2,191x36,0,0,23
+window	home-router	1	0	:-	e1d3,191x36,0,0,24
+window	notes	0	1	:*	e1d4,191x36,0,0,25
+state	csssr-servers	csssr

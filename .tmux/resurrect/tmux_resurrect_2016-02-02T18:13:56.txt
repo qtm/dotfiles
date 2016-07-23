@@ -1,0 +1,65 @@
+pane	0	0	:	1	:*	0	:/home/qtm	1	zsh	:
+pane	book-nodejs	0	:vim	1	:*	0	:/home/qtm/projects/node-practice/first-project	1	nvim	:nvim -S
+pane	book-nodejs	0	:vim	1	:*	1	:/home/qtm/projects/node-practice/first-project	0	zsh	:
+pane	book-nodejs	1	:notes	0	: 	0	:/media/Data/Dropbox/notes/books	1	nvim	:nvim -S
+pane	book-nodejs	2	:anki	0	:-	0	:/media/Data/Dropbox/notes/anki	1	nvim	:nvim nodejs.md
+pane	booknotes	0	:zsh	1	:*	0	:/media/Data/Dropbox/notes/books/Productivity/finding-your-element	1	zsh	:
+pane	booknotes	1	:vim	0	: 	0	:/media/Data/Dropbox/notes/projects	1	nvim	:nvim
+pane	booknotes	2	:zsh	0	:-	0	:/home/qtm/.config/base16-builder/templates/gnome-terminal	1	zsh	:
+pane	csssr	0	:back	1	:*	0	:/media/Data/external/www/csssr/tools-back	0	nvim	:nvim
+pane	csssr	0	:back	1	:*	1	:/media/Data/external/www/csssr/tools-back	1	zsh	:
+pane	csssr	3	:notes	0	:-	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim -S
+pane	csssr	4	:log	0	: 	0	:/media/Data/external/www/csssr/tools-back/storage/logs	1	tail	:tail -f laravel.log
+pane	csssr	5	:site	0	: 	0	:/media/Data/external/www/csssr/site	1	zsh	:
+pane	csssr	6	:homestead	0	: 	0	:/home/qtm/Homestead	1	zsh	:
+pane	csssr	6	:homestead	0	: 	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr-servers	0	:ansible	1	:*	0	:/home/qtm/projects/ansible	1	zsh	:nvim -S
+pane	csssr-servers	0	:ansible	1	:*	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	1	:projects-2	0	: 	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	2	:main	0	:-	0	:/home/qtm	1	zsh	:
+pane	csssr-servers	3	:one-c	0	: 	0	:/home/qtm	1	ssh	:ssh root@1c.csssr.ru
+pane	csssr-servers	4	:ssh	0	: 	0	:/home/qtm	1	zsh	:
+pane	csssr-servers	5	:zsh	0	: 	0	:/home/qtm	1	zsh	:
+pane	notes	0	:listacular	1	:*	0	:/media/Data/Dropbox/Listacular	1	nvim	:nvim
+pane	router	0	:router	0	: 	0	:/home/qtm/.config/powerline	1	ssh	:ssh root@192.168.0.1
+pane	router	1	:zsh	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@192.168.0.1
+pane	router	2	:zsh	0	: 	0	:/home/qtm/openvpn	1	nvim	:nvim client.ovpn
+pane	router	3	:ssh	0	:-	0	:/home/qtm/.config/powerline	1	ssh	:ssh root@46.101.193.162
+pane	router	4	:nvim	1	:*	0	:/home/qtm/openvpn	1	zsh	:
+pane	timegain	0	:notes	1	:*	0	:/media/Data/Dropbox/notes/projects/timegain	1	nvim	:nvim prototypes.md
+pane	timegain	1	:back	0	:-	0	:/media/Data/external/www/timegain/prototype/laravel	1	nvim	:nvim -S
+pane	timegain	2	:front	0	: 	0	:/media/Data/external/www/timegain/frontend	1	zsh	:
+pane	timegain	3	:log	0	: 	0	:/media/Data/external/www/timegain/prototype/laravel/storage/logs	1	tail	:tail -f laravel.log
+pane	timegain	4	:vagrant	0	: 	0	:/home/qtm	1	zsh	:
+pane	videolessons	0	:	1	:*	0	:/home/qtm	1	zsh	:
+window	0	0	1	:*	c7be,192x37,0,0,1
+window	book-nodejs	0	1	:*	8f41,192x37,0,0[192x27,0,0,2,192x9,0,28,3]
+window	book-nodejs	1	0	: 	c7c1,192x37,0,0,4
+window	book-nodejs	2	0	:-	c7c2,192x37,0,0,5
+window	booknotes	0	1	:*	c7c3,192x37,0,0,6
+window	booknotes	1	0	: 	c7c4,192x37,0,0,7
+window	booknotes	2	0	:-	c7c5,192x37,0,0,8
+window	csssr	0	1	:*	7e23,192x37,0,0{134x37,0,0,9,57x37,135,0,35}
+window	csssr	3	0	:-	6410,192x37,0,0,11
+window	csssr	4	0	: 	6411,192x37,0,0,12
+window	csssr	5	0	: 	6412,192x37,0,0,13
+window	csssr	6	0	: 	0c13,192x37,0,0{101x37,0,0,14,90x37,102,0,15}
+window	csssr-servers	0	1	:*	9141,192x37,0,0[192x26,0,0,18,192x10,0,27,19]
+window	csssr-servers	1	0	: 	6416,192x37,0,0,17
+window	csssr-servers	2	0	:-	e40f,192x37,0,0,20
+window	csssr-servers	3	0	: 	6415,192x37,0,0,16
+window	csssr-servers	4	0	: 	e410,192x37,0,0,21
+window	csssr-servers	5	0	: 	e411,192x37,0,0,22
+window	notes	0	1	:*	e412,192x37,0,0,23
+window	router	0	0	: 	e413,192x37,0,0,24
+window	router	1	0	: 	e414,192x37,0,0,25
+window	router	2	0	: 	e415,192x37,0,0,26
+window	router	3	0	:-	e416,192x37,0,0,27
+window	router	4	1	:*	e417,192x37,0,0,28
+window	timegain	0	1	:*	e418,192x37,0,0,29
+window	timegain	1	0	:-	6410,192x37,0,0,30
+window	timegain	2	0	: 	6411,192x37,0,0,31
+window	timegain	3	0	: 	6412,192x37,0,0,32
+window	timegain	4	0	: 	6413,192x37,0,0,33
+window	videolessons	0	1	:*	6414,192x37,0,0,34
+state	csssr-servers	csssr

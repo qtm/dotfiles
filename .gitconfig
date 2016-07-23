@@ -1,0 +1,7 @@
+[user]
+	email = qmatoz@gmail.com
+	name = Aleksandr Krutikov
+[push]
+	default = simple
+[core]
+	excludesfile = /home/qtm/.gitignore_global

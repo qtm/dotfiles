@@ -1,0 +1,36 @@
+pane	0	0	:	1	:*	0	:/home/qtm	1	weechat	:weechat
+pane	csssr	0	:back	1	:*	0	:/media/Data/external/www/csssr/tools-back	1	nvim	:nvim
+pane	csssr	1	:notes	0	: 	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim csssr.txt
+pane	csssr	2	:log	0	: 	0	:/media/Data/external/www/csssr/tools-back/storage/logs	1	tail	:tail -f laravel.log
+pane	csssr	3	:homestead	0	: 	0	:/home/qtm/Homestead	1	zsh	:
+pane	csssr	3	:homestead	0	: 	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr	4	:nvim	0	:-	0	:/home/qtm/.vim/plugged/deoplete.nvim	1	zsh	:
+pane	csssr	4	:nvim	0	:-	1	:/home/qtm/.vim/plugged/base16-vim/colors	0	zsh	:
+pane	csssr	5	:site	0	: 	0	:/media/Data/external/www/csssr/csssr.ru	1	nvim	:nvim
+pane	csssr-servers	0	:ansible	0	: 	0	:/home/qtm/projects/ansible	1	nvim	:nvim
+pane	csssr-servers	1	:p1	0	:-Z	0	:/home/qtm	0	ssh	:ssh root@projects-1.csssr.ru
+pane	csssr-servers	1	:p1	0	:-Z	1	:/home/qtm/projects/ansible	1	ssh	:ssh root@projects-1.csssr.ru
+pane	csssr-servers	2	:p2	1	:*	0	:/home/qtm	1	ssh	:ssh root@projects-2.csssr.ru
+pane	csssr-servers	3	:1c	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@1c.csssr.ru
+pane	csssr-servers	4	:prometheus	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@prometheus.csssr.ru
+pane	euler	0	:	1	:*	0	:/home/qtm/projects/euler/001	1	nvim	:nvim main.go
+pane	home-router	0	:zsh	0	:-	0	:/home/qtm/openvpn	1	zsh	:
+pane	home-router	1	:ssh	1	:*	0	:/home/qtm/openvpn	1	ssh	:ssh root@192.168.0.1
+pane	notes	0	:nvim	1	:*	0	:/media/Data/Dropbox/Listacular	1	nvim	:nvim english.md
+window	0	0	1	:*	adfe,160x31,0,0,1
+window	csssr	0	1	:*	ae01,160x31,0,0,4
+window	csssr	1	0	: 	ae02,160x31,0,0,5
+window	csssr	2	0	: 	ae03,160x31,0,0,6
+window	csssr	3	0	: 	95c0,160x31,0,0{81x31,0,0,7,78x31,82,0,8}
+window	csssr	4	0	:-	864d,160x31,0,0{80x31,0,0,9,79x31,81,0,19}
+window	csssr	5	0	: 	572f,160x31,0,0,10
+window	csssr-servers	0	0	: 	5730,160x31,0,0,11
+window	csssr-servers	1	0	:-Z	60f4,160x31,0,0{80x31,0,0,12,79x31,81,0,13}
+window	csssr-servers	2	1	:*	5733,160x31,0,0,14
+window	csssr-servers	3	0	: 	5734,160x31,0,0,15
+window	csssr-servers	4	0	: 	5735,160x31,0,0,16
+window	euler	0	1	:*	5736,160x31,0,0,17
+window	home-router	0	0	:-	adff,160x31,0,0,2
+window	home-router	1	1	:*	ae00,160x31,0,0,3
+window	notes	0	1	:*	5737,160x31,0,0,18
+state	home-router	home-router

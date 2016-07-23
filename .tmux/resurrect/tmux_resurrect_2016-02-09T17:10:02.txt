@@ -1,0 +1,25 @@
+pane	0	0	:	1	:*	0	:/home/qtm	1	zsh	:
+pane	3	0	:zsh	1	:*	0	:/home/qtm/openvpn	1	sudo	:sudo openvpn client.ovpn
+pane	csssr	0	:back	1	:*	0	:/media/Data/external/www/csssr/tools-back	1	nvim	:nvim
+pane	csssr	0	:back	1	:*	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr	1	:notes	0	: 	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim csssr.txt
+pane	csssr	2	:log	0	: 	0	:/home/qtm	1	zsh	:
+pane	csssr	3	:homestead	0	:-	0	:/home/qtm/Homestead	0	ssh	:ssh vagrant@192.168.10.10
+pane	csssr	3	:homestead	0	:-	1	:/media/Data/external/www/csssr/tools-back	1	ssh	:ssh vagrant@192.168.10.10
+pane	csssr	4	:nvim	0	: 	0	:/home/qtm/.tmux	1	nvim	:nvim /home/qtm/.tmux.conf
+pane	csssr-servers	0	:ansible	0	: 	0	:/home/qtm/projects/ansible	1	nvim	:nvim
+pane	csssr-servers	1	:p1	1	:*	0	:/home/qtm	1	ssh	:ssh root@projects-1.csssr.ru
+pane	csssr-servers	2	:p2	0	:-	0	:/home/qtm	1	ssh	:ssh root@projects-2.csssr.ru
+pane	notes	0	:nvim	1	:*	0	:/media/Data/Dropbox/notes/anki	1	nvim	:nvim english.md
+window	0	0	1	:*	c33d,191x36,0,0,0
+window	3	0	1	:*	c7be,192x37,0,0,1
+window	csssr	0	1	:*	7e1a,192x37,0,0{134x37,0,0,2,57x37,135,0,12}
+window	csssr	1	0	: 	c7c1,192x37,0,0,4
+window	csssr	2	0	: 	c7c2,192x37,0,0,5
+window	csssr	3	0	:-	b9a1,192x37,0,0{96x37,0,0,6,95x37,97,0,13}
+window	csssr	4	0	: 	c7c4,192x37,0,0,7
+window	csssr-servers	0	0	: 	640f,192x37,0,0,10
+window	csssr-servers	1	1	:*	6410,192x37,0,0,11
+window	csssr-servers	2	0	:-	c7c5,192x37,0,0,8
+window	notes	0	1	:*	c346,191x36,0,0,9
+state	csssr-servers	csssr

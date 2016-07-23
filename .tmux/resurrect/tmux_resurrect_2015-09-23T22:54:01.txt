@@ -1,0 +1,23 @@
+pane	0	0	:forge	0	: 	0	:/home/qtm/projects	0	ssh	:ssh forge@yd.csssr.ru
+pane	0	0	:forge	0	: 	1	:/home/qtm	1	ssh	:ssh forge@yd.csssr.ru
+pane	0	1	:projects-1	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@projects-1.csssr.ru
+pane	0	1	:projects-1	0	: 	1	:/home/qtm/projects/ansible	0	ssh	:ssh root@projects-1.csssr.ru
+pane	0	2	:csssr ansible	0	:-	0	:/home/qtm/projects/ansible	1	vim	:vim
+pane	0	3	:hosts	0	: 	0	:/home/qtm/projects/ansible/files	1	zsh	:sudo vim /etc/hosts
+pane	0	4	:ssh	0	: 	0	:/home/qtm/Homestead	1	zsh	:sudo vim /etc/hosts
+pane	0	5	:gulp front	0	: 	0	:/media/Data/external/www/csssr/tools-front	1	zsh	:
+pane	0	6	:front	0	: 	0	:/media/Data/external/www/csssr/tools-front	1	vim	:vim
+pane	0	7	:ssh	0	: 	0	:/home/qtm	1	ssh	:ssh root@csssr.ru
+pane	0	8	:ssh	1	:*	0	:/home/qtm	1	ssh	:ssh qmatoz@192.168.0.1
+pane	1	0	:zsh	1	:*	0	:/home/qtm/.homestead	1	zsh	:
+window	0	0	0	: 	1bcd,191x42,0,0{95x42,0,0,1,95x42,96,0,2}
+window	0	1	0	: 	1bf6,191x42,0,0{95x42,0,0,3,95x42,96,0,4}
+window	0	2	0	:-	b542,191x42,0,0,5
+window	0	3	0	: 	b543,191x42,0,0,6
+window	0	4	0	: 	b544,191x42,0,0,7
+window	0	5	0	: 	b545,191x42,0,0,8
+window	0	6	0	: 	b546,191x42,0,0,9
+window	0	7	0	: 	5acf,191x42,0,0,10
+window	0	8	1	:*	5ad0,191x42,0,0,11
+window	1	0	1	:*	5ad1,191x42,0,0,12
+state	0	0

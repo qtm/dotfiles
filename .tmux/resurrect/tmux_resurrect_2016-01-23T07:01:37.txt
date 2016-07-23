@@ -1,0 +1,68 @@
+pane	0	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	10	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	11	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	12	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	3	0	:vim	1	:*	0	:/home/qtm/.config/powerline	1	ssh	:ssh root@192.168.0.1
+pane	3	1	:zsh	0	:-	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@192.168.0.1
+pane	3	2	:zsh	0	: 	0	:/home/qtm/.config/powerline	1	zsh	:
+pane	6	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	7	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	9	0	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	book-nodejs	0	:vim	1	:*	0	:/home/qtm/projects/node-practice/first-project	1	vim	:vim -S
+pane	book-nodejs	0	:vim	1	:*	1	:/home/qtm/projects/node-practice/first-project	0	zsh	:
+pane	book-nodejs	1	:notes	0	: 	0	:/media/Data/Dropbox/notes/books	1	vim	:vim -S
+pane	book-nodejs	2	:anki	0	:-	0	:/media/Data/Dropbox/notes/anki	1	vim	:vim nodejs.md
+pane	booknotes	0	:zsh	1	:*	0	:/media/Data/Dropbox/notes/books/Productivity/finding-your-element	1	zsh	:
+pane	booknotes	1	:vim	0	: 	0	:/media/Data/Dropbox/notes/projects	1	vim	:vim
+pane	booknotes	2	:zsh	0	:-	0	:/home/qtm/.config/base16-builder/templates/gnome-terminal	1	zsh	:
+pane	csssr	0	:back	1	:*	0	:/media/Data/external/www/csssr/tools-back	1	nvim	:nvim -S
+pane	csssr	3	:notes	0	: 	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim -S
+pane	csssr	4	:log	0	: 	0	:/media/Data/external/www/csssr/tools-back/storage/logs	1	tail	:tail -f laravel.log
+pane	csssr	5	:site	0	: 	0	:/media/Data/external/www/csssr/site	1	zsh	:
+pane	csssr	6	:homestead	0	:-	0	:/home/qtm/Homestead	1	zsh	:
+pane	csssr	6	:homestead	0	:-	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr-servers	0	:one-c	1	:*	0	:/home/qtm	1	ssh	:ssh root@46.101.199.252
+pane	csssr-servers	1	:projects-2	0	: 	0	:/home/qtm/projects/ansible	1	ssh	:ssh root@projects-2.csssr.ru
+pane	csssr-servers	2	:ansible	0	: 	0	:/home/qtm/projects/ansible	1	vim	:vim -S
+pane	csssr-servers	2	:ansible	0	: 	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	3	:main	0	:-	0	:/home/qtm	1	ssh	:ssh root@csssr.ru
+pane	csssr-servers	4	:ssh	0	: 	0	:/home/qtm	1	ssh	:ssh root@projects-1.csssr.ru
+pane	csssr-servers	5	:zsh	0	: 	0	:/home/qtm	1	ssh	:ssh root@hr.csssr.ru
+pane	timegain	0	:notes	0	: 	0	:/media/Data/Dropbox/notes/projects/timegain	1	vim	:vim prototypes.md
+pane	timegain	1	:code	1	:*	0	:/media/Data/external/www/timegain/front_prototype	1	vim	:vim
+pane	timegain	2	:unit-tests	0	: 	0	:/media/Data/external/www/timegain/frontend	1	zsh	:
+pane	timegain	3	:serve	0	:-	0	:/media/Data/external/www/timegain/front_prototype	1	zsh	:
+pane	timegain	4	:csssr-template	0	: 	0	:/media/Data/external/www/tests/csssr-project-template	1	vim	:vim
+window	0	0	1	:*	d03e,159x29,0,0,1
+window	10	0	1	:*	d03f,159x29,0,0,2
+window	11	0	1	:*	d040,159x29,0,0,3
+window	12	0	1	:*	6858,159x29,0,0,38
+window	3	0	1	:*	d041,159x29,0,0,4
+window	3	1	0	:-	d042,159x29,0,0,5
+window	3	2	0	: 	d043,159x29,0,0,6
+window	6	0	1	:*	d044,159x29,0,0,7
+window	7	0	1	:*	d045,159x29,0,0,8
+window	9	0	1	:*	d046,159x29,0,0,9
+window	book-nodejs	0	1	:*	4efe,159x29,0,0[159x23,0,0,10,159x5,0,24,11]
+window	book-nodejs	1	0	: 	6851,159x29,0,0,12
+window	book-nodejs	2	0	:-	6852,159x29,0,0,13
+window	booknotes	0	1	:*	6853,159x29,0,0,14
+window	booknotes	1	0	: 	6854,159x29,0,0,15
+window	booknotes	2	0	:-	6855,159x29,0,0,16
+window	csssr	0	1	:*	5736,160x31,0,0,17
+window	csssr	3	0	: 	5737,160x31,0,0,18
+window	csssr	4	0	: 	5738,160x31,0,0,19
+window	csssr	5	0	: 	d72f,160x31,0,0,20
+window	csssr	6	0	:-	32b3,160x31,0,0{84x31,0,0,21,75x31,85,0,22}
+window	csssr-servers	0	1	:*	e855,159x29,0,0,26
+window	csssr-servers	1	0	: 	e856,159x29,0,0,27
+window	csssr-servers	2	0	: 	7b93,159x29,0,0[159x22,0,0,28,159x6,0,23,29]
+window	csssr-servers	3	0	:-	6850,159x29,0,0,30
+window	csssr-servers	4	0	: 	6851,159x29,0,0,31
+window	csssr-servers	5	0	: 	6852,159x29,0,0,32
+window	timegain	0	0	: 	6853,159x29,0,0,33
+window	timegain	1	1	:*	6854,159x29,0,0,34
+window	timegain	2	0	: 	6855,159x29,0,0,35
+window	timegain	3	0	:-	6856,159x29,0,0,36
+window	timegain	4	0	: 	6857,159x29,0,0,37
+state	csssr	csssr-servers

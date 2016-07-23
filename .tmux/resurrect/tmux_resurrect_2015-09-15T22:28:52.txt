@@ -1,0 +1,15 @@
+pane	0	0	:vim	1	:*	0	:/home/qtm/.i3	1	vim	:vim config
+pane	0	1	:bash	0	:-	0	:/media/Data/Dropbox/Pictures	1	bash	:
+pane	1	0	:vim	0	: 	0	:/media/Data/external/www/csssr/tools-back	1	bash	:
+pane	1	1	:bash	0	: 	0	:/home/qtm/.config/base16-shell	1	bash	:
+pane	1	2	:bash	1	:*	0	:/home/qtm/projects/ansible	1	vim	:vim
+pane	1	3	:ssh	0	:-	0	:/media/Data/external/www/csssr/tools-back	1	ssh	:ssh root@projects-1.csssr.ru
+pane	2	0	:vim	1	:*	0	:/media/Data/Dropbox/Listacular	1	vim	:vim
+window	0	0	1	:*	c91e,95x48,0,0,1
+window	0	1	0	:-	c91f,95x48,0,0,2
+window	1	0	0	: 	cd40,191x48,0,0,3
+window	1	1	0	: 	cd41,191x48,0,0,4
+window	1	2	1	:*	cd42,191x48,0,0,5
+window	1	3	0	:-	cd44,191x48,0,0,7
+window	2	0	1	:*	cd43,191x48,0,0,6
+state	1	1

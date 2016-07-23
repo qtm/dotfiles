@@ -1,0 +1,3 @@
+pane	0	0	:	1	:*	0	:/home/qtm	1	zsh	:
+window	0	0	1	:*	c33d,191x36,0,0,0
+state	0	

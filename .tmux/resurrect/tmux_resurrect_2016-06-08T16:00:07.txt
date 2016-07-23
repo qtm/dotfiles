@@ -1,0 +1,102 @@
+pane	0	0	:	1	:*	0	:/home/qtm	1	zsh	:
+pane	0	1	:zsh	0	:-	0	:/home/qtm/.weechat/xfer	1	zsh	:
+pane	anki	0	:english	1	:*	0	:/home/qtm	1	nvim	:nvim english.md
+pane	anki	0	:english	1	:*	1	:/home/qtm	0	nvim	:nvim sample.js
+pane	anki	1	:js	0	:-	0	:/home/qtm	1	nvim	:nvim sample.js
+pane	csssr	0	:back	0	: 	0	:/media/Data/external/www/csssr/tools-back	1	nvim	:nvim
+pane	csssr	0	:back	0	: 	1	:/media/Data/external/www/csssr/tools-back	0	zsh	:
+pane	csssr	1	:notes	0	: 	0	:/media/Data/Dropbox/Listacular/projects	1	nvim	:nvim csssr.txt
+pane	csssr	2	:log	0	: 	0	:/media/Data/external/www/csssr/tools-back/storage/logs	1	tail	:tail -f laravel.log
+pane	csssr	3	:homestead	0	: 	0	:/home/qtm/Homestead	0	zsh	:
+pane	csssr	3	:homestead	0	: 	1	:/media/Data/external/www/csssr/tools-back	1	zsh	:
+pane	csssr	4	:nvim	0	:-	0	:/home/qtm/.vim/plugged/deoplete.nvim	1	zsh	:
+pane	csssr	4	:nvim	0	:-	1	:/home/qtm/.vim/plugged/base16-vim/colors	0	zsh	:
+pane	csssr	5	:site	0	: 	0	:/media/Data/external/www/csssr/site/classes	1	nvim	:nvim
+nvim
+nvim branch.yml
+pane	csssr	6	:zsh	1	:*	0	:/home/qtm/projects/csssr/tools-front	1	zsh	:
+pane	csssr	6	:zsh	1	:*	1	:/home/qtm/projects/csssr/tools-front	0	zsh	:
+pane	csssr-servers	0	:ansible	0	: 	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	1	:p1	1	:*Z	0	:/home/qtm	1	ssh	:ssh root@test-tools.csssr.ru
+pane	csssr-servers	1	:p1	1	:*Z	1	:/home/qtm/projects/ansible	0	ssh	:ssh root@test-tools.csssr.ru
+pane	csssr-servers	2	:p2	0	: 	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	2	:p2	0	: 	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	3	:1c	0	:-Z	0	:/media/Data/Downloads	0	zsh	:
+pane	csssr-servers	3	:1c	0	:-Z	1	:/media/Data/Downloads	1	ssh	:ssh root@1c.csssr.ru
+pane	csssr-servers	4	:prometheus	0	: 	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	5	:main	0	:Z	0	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	5	:main	0	:Z	1	:/home/qtm/projects/ansible	1	ssh	:ssh root@csssr.ru
+pane	csssr-servers	6	:zsh	0	:Z	0	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	6	:zsh	0	:Z	1	:/home/qtm/projects/ansible	1	ssh	:ssh root@s.csssr.ru
+pane	csssr-servers	7	:zsh	0	: 	0	:/home/qtm/tmp/bystrova-natalya	1	ssh	:ssh root@192.168.0.110
+pane	csssr-servers	8	:zsh	0	: 	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	8	:zsh	0	: 	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-servers	8	:zsh	0	: 	2	:/home/qtm/projects/ansible	0	ssh	:ssh root@192.168.0.110
+pane	csssr-servers	9	:zsh	0	:Z	0	:/home/qtm/projects/ansible	1	zsh	:
+pane	csssr-servers	9	:zsh	0	:Z	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-vagrant	0	:ansible	0	: 	0	:/home/qtm/projects/ansible	1	nvim	:nvim
+pane	csssr-vagrant	0	:ansible	0	: 	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-vagrant	1	:tools-back	1	:*	0	:/home/qtm/projects/csssr/tools-back	1	zsh	:nvim
+pane	csssr-vagrant	2	:tools-front	0	: 	0	:/home/qtm/projects/csssr/tools-front	1	gulp	:nvim
+gulp                                         
+pane	csssr-vagrant	3	:site	0	: 	0	:/home/qtm/projects/csssr/site	1	nvim	:nvim
+pane	csssr-vagrant	4	:hr	0	:-	0	:/media/Data/external/www/csssr/tools-back	1	zsh	:
+pane	csssr-vagrant	5	:vagrant	0	:Z	0	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-vagrant	5	:vagrant	0	:Z	1	:/home/qtm/projects/ansible	0	zsh	:
+pane	csssr-vagrant	5	:vagrant	0	:Z	2	:/home/qtm/projects/ansible	1	bash	:bash /usr/bin/vagrant ssh
+pane	csssr-vagrant	6	:ansible-branch	0	: 	0	:/home/qtm/projects/ansible-role-branch-deploy	1	nvim	:nvim
+nvim branch.yml
+pane	csssr-vagrant	7	:ssh	0	: 	0	:/home/qtm/projects/ansible	0	ssh	:ssh root@192.168.0.72
+pane	csssr-vagrant	7	:ssh	0	: 	1	:/home/qtm/projects/ansible	0	ssh	:ssh root@192.168.0.72
+pane	csssr-vagrant	7	:ssh	0	: 	2	:/home/qtm/projects/ideal-dollop	0	zsh	:
+pane	csssr-vagrant	7	:ssh	0	: 	3	:/home/qtm/projects/ansible	1	ssh	:ssh root@192.168.0.72
+pane	euler	0	:	1	:*	0	:/home/qtm/projects/euler/001	1	nvim	:nvim main.go
+pane	go playground	0	:zsh	0	:-	0	:/home/qtm	1	zsh	:
+pane	go playground	1	:zsh	1	:*	0	:/home/qtm	1	zsh	:
+pane	home-router	0	:zsh	0	:-	0	:/home/qtm/openvpn	1	ssh	:ssh root@46.101.193.162
+pane	home-router	1	:ssh	1	:*	0	:/home/qtm/openvpn	0	ssh	:ssh root@192.168.0.110
+pane	home-router	1	:ssh	1	:*	1	:/home/qtm/openvpn	0	ssh	:ssh root@192.168.0.110
+pane	home-router	1	:ssh	1	:*	2	:/home/qtm/openvpn	1	ssh	:ssh root@192.168.0.1
+pane	home-router	2	:do	0	: 	0	:/home/qtm/openvpn	1	ssh	:ssh root@test-tools.csssr.ru
+pane	notes	0	:nvim	1	:*	0	:/media/Data/Dropbox/Listacular	1	nvim	:nvim english.md
+pane	notes	1	:nvim	0	:-	0	:/media/Data/Dropbox/notes/videolessons	1	nvim	:nvim concurrent-programming-with-go.md
+pane	timegain	0	:zsh	1	:*	0	:/home/qtm/gocode/src/bitbucket.org:devsign/auth	1	nvim	:nvim
+window	0	0	1	:*	c33e,191x36,0,0,1
+window	0	1	0	:-	c33f,191x36,0,0,2
+window	anki	0	1	:*	52c9,191x36,0,0[191x17,0,0,3,191x18,0,18,4]
+window	anki	1	0	:-	c342,191x36,0,0,5
+window	csssr	0	0	: 	fb90,192x37,0,0{134x37,0,0,6,57x37,135,0,7}
+window	csssr	1	0	: 	c7c5,192x37,0,0,8
+window	csssr	2	0	: 	c7c6,192x37,0,0,9
+window	csssr	3	0	: 	0c0d,192x37,0,0{101x37,0,0,10,90x37,102,0,11}
+window	csssr	4	0	:-	07d8,192x37,0,0{100x37,0,0,12,91x37,101,0,13}
+window	csssr	5	0	: 	6413,192x37,0,0,14
+window	csssr	6	1	:*	a7cc,192x37,0,0{117x37,0,0,15,74x37,118,0,16}
+window	csssr-servers	0	0	: 	6416,192x37,0,0,17
+window	csssr-servers	1	1	:*Z	0c19,192x37,0,0{101x37,0,0,18,90x37,102,0,19}
+window	csssr-servers	2	0	: 	890b,192x37,0,0{96x37,0,0,21,95x37,97,0,54}
+window	csssr-servers	3	0	:-Z	4d7c,192x37,0,0{97x37,0,0,22,94x37,98,0,23}
+window	csssr-servers	4	0	: 	e413,192x37,0,0,24
+window	csssr-servers	5	0	:Z	c911,192x37,0,0{96x37,0,0,25,95x37,97,0,60}
+window	csssr-servers	6	0	:Z	c916,192x37,0,0{96x37,0,0,26,95x37,97,0,47}
+window	csssr-servers	7	0	: 	e416,192x37,0,0,27
+window	csssr-servers	8	0	: 	1514,192x37,0,0{96x37,0,0,48,95x37,97,0[95x19,97,0,50,95x17,97,20,51]}
+window	csssr-servers	9	0	:Z	0910,192x37,0,0{96x37,0,0,52,95x37,97,0,53}
+window	csssr-vagrant	0	0	: 	2173,192x37,0,0[192x28,0,0,28,192x8,0,29,58]
+window	csssr-vagrant	1	1	:*	e418,192x37,0,0,29
+window	csssr-vagrant	2	0	: 	6411,192x37,0,0,31
+window	csssr-vagrant	3	0	: 	6412,192x37,0,0,32
+window	csssr-vagrant	4	0	:-	6413,192x37,0,0,33
+window	csssr-vagrant	5	0	:Z	3d70,192x37,0,0{98x37,0,0,34,93x37,99,0[93x20,99,0,35,93x16,99,21,36]}
+window	csssr-vagrant	6	0	: 	6416,192x37,0,0,55
+window	csssr-vagrant	7	0	: 	6d62,192x37,0,0{96x37,0,0[96x18,0,0,57,96x18,0,19,62],95x37,97,0[95x18,97,0,61,95x18,97,19,63]}
+window	euler	0	1	:*	61d7,191x36,0,0,37
+window	go playground	0	0	:-	61d8,191x36,0,0,38
+window	go playground	1	1	:*	61d9,191x36,0,0,39
+window	home-router	0	0	:-	e410,192x37,0,0,40
+window	home-router	1	1	:*	b58b,192x37,0,0{87x37,0,0[87x18,0,0,41,87x18,0,19,65],104x37,88,0,42}
+window	home-router	2	0	: 	e413,192x37,0,0,43
+window	notes	0	1	:*	dee4,63x36,0,0,44
+window	notes	1	0	:-	dee5,63x36,0,0,45
+window	timegain	0	1	:*	e1d6,191x36,0,0,46
+state	csssr-vagrant	csssr-servers

@@ -1,0 +1,3 @@
+pane	csssr	0	:back	1	:*	0	:/media/Data/external/www/csssr/tools-back	1	zsh	:
+window	csssr	0	1	:*	c7be,192x37,0,0,1
+state	csssr	csssr
