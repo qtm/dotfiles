@@ -42,8 +42,9 @@ Plug 'tpope/vim-surround'
 " Testing
 Plug 'janko-m/vim-test'
 " Markdown preview
-Plug 'euclio/vim-markdown-composer'
+" Plug 'euclio/vim-markdown-composer'
 " Filetypes plugins
+Plug 'editorconfig/editorconfig-vim'
 Plug 'xolox/vim-misc'
 Plug 'fatih/vim-go'
 Plug 'docteurklein/php-getter-setter.vim'
@@ -60,8 +61,8 @@ Plug 'klen/python-mode'
 Plug 'moll/vim-node'
 Plug 'leafgarland/typescript-vim'
 Plug 'xsbeats/vim-blade'
-Plug 'floobits/floobits-neovim'
 Plug 'xolox/vim-lua-ftplugin'
+Plug 'stephpy/vim-yaml'
 
 call plug#end()
 
@@ -95,6 +96,7 @@ imap <expr><TAB>
  \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+vmap <leader>t :Tab /=><cr>
 
 let g:neosnippet#snippets_directory='~/.vim/mysnippets'
 
@@ -171,10 +173,13 @@ nmap <silent> <leader>u :TestFile<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
+let test#javascript#jasmine#executable = 'jasmine'
+let test#javascript#jasmine#file_pattern = '\vapp/.*\/.spec/.(ts|js|coffee)$'
+
 " Markdown Composer
-let g:markdown_composer_syntax_theme = "pojoaque"
-let g:markdown_composer_autostart = 0
-map <leader>co :ComposerStart<CR>:ComposerOpen<CR>
+" let g:markdown_composer_syntax_theme = "pojoaque"
+" let g:markdown_composer_autostart = 0
+" map <leader>co :ComposerStart<CR>:ComposerOpen<CR>
 
 " Floobits
 map <Leader>ft :FlooToggleFollowMode<CR>
@@ -213,7 +218,10 @@ let g:phpgetset_setterTemplate =
 
 " Lua
 let g:lua_compiler_name = '/usr/bin/luac'
-let g:lua_check_syntax = 1
+let g:lua_check_syntax = 0
+
+" Typescript
+autocmd FileType typescript map <buffer> <leader>m :!tsc<cr>
 
 " 2. Moving around, searching and patterns
 set incsearch 	" show match for partly typed search command
@@ -247,18 +255,23 @@ set expandtab	" expand <Tab> to spaces in Insert mode
 set smarttab	" a <Tab> in an indent inserts 'shiftwidth' spaces
 set ai		" automatically set the indent of a new line
 
-au FileType python set softtabstop=4 tabstop=4 shiftwidth=4
+au FileType python set softtabstop=2 tabstop=2 shiftwidth=2
+au FileType python3 set softtabstop=2 tabstop=2 shiftwidth=2
 au FileType ruby set softtabstop=2 tabstop=2 shiftwidth=2
 au FileType coffee set softtabstop=2 tabstop=2 shiftwidth=2 noexpandtab ai
 au FileType jade set softtabstop=4 tabstop=4 shiftwidth=4 noexpandtab ai
 au FileType slim set softtabstop=2 tabstop=2 shiftwidth=2
 au FileType haml set softtabstop=2 tabstop=2 shiftwidth=2
 au FileType erb set softtabstop=2 tabstop=2 shiftwidth=2
-au FileType ujs set softtabstop=2 tabstop=2 shiftwidth=2
-au FileType javascript setlocal ts=2 sts=2 sw=2
+"au FileType ujs set softtabstop=2 tabstop=2 shiftwidth=2
+"au FileType javascript setlocal ts=2 sts=2 sw=2 noexpandtab
+"au FileType json setlocal ts=2 sts=2 sw=2 noexpandtab
+"au FileType typescript setlocal ts=2 sts=2 sw=2 noexpandtab
 au FileType j2 setlocal ts=2 sts=2 sw=2
 au FileType php set softtabstop=4 tabstop=4 shiftwidth=4
 au FileType lua setlocal ts=2 sts=2 sw=2
+au FileType apib setlocal ts=4 sts=4 sw=4 noexpandtab ai
+au FileType yaml setlocal ts=2 sts=2 sw=2 expandtab ai
 
 " 18. Reading and writing files
 set modeline 	" enable using settings from modelines when reading a file
@@ -275,6 +288,9 @@ set dir=~/.vim/backups
 " =========
 " Filetypes
 " =========
+
+" Editorconfig
+let g:EditorConfig_core_mode = 'external_command'
 
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile}    set ft=ruby
@@ -361,3 +377,16 @@ endif
 
 nmap <silent> <leader>x :!xrdb ~/.Xresources<cr>
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+let g:python3_host_prog = '/usr/bin/python3'
+
+function! HighlightSpechail()
+    if &list
+        set nolist
+    else
+        set list
+        set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:.
+    endif
+endfunction
+
+nnoremap <leader>h <Esc>:call HighlightSpechail()<cr>

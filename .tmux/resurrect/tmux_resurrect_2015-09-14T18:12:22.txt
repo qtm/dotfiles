@@ -1,3 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/qtm	1	bash	:
-window	0	0	1	:*	cd3d,191x48,0,0,0
-state	0	

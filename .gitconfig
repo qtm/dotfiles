@@ -5,3 +5,4 @@
 	default = simple
 [core]
 	excludesfile = /home/qtm/.gitignore_global
+	editor = nvim
